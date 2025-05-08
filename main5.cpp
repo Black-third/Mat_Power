@@ -41,6 +41,7 @@ public:
     // Constructor
     StatisticalCalculation(int size) : size(size) {
         data = new T[size];
+        //intiliazing 
     }
 
     // Destructor
